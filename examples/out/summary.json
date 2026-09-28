@@ -1,0 +1,47 @@
+{
+  "overall": {
+    "group": "overall",
+    "subjects": 12,
+    "events": 5,
+    "censored": 7,
+    "median_survival_days": 7,
+    "median_note": null,
+    "max_followup_days": 15
+  },
+  "groups": [
+    {
+      "group": "A",
+      "subjects": 5,
+      "events": 3,
+      "censored": 2,
+      "median_survival_days": 7,
+      "median_note": null
+    },
+    {
+      "group": "B",
+      "subjects": 4,
+      "events": 2,
+      "censored": 2,
+      "median_survival_days": 5,
+      "median_note": null
+    },
+    {
+      "group": "C",
+      "subjects": 3,
+      "events": 0,
+      "censored": 3,
+      "median_survival_days": null,
+      "median_note": "survival never reached 0.5 within follow-up"
+    }
+  ],
+  "query_days": [
+    0,
+    2,
+    4,
+    5,
+    7,
+    12,
+    15,
+    16
+  ]
+}
