@@ -1,0 +1,11 @@
+id,group,days,event
+P01,control,0,1
+P02,control,2,1
+P03,control,2,0
+P04,control,6,0
+P05,control,6,1
+P06,treated,1,0
+P07,treated,4,1
+P08,treated,4,0
+P09,treated,9,0
+P10,treated,9,0

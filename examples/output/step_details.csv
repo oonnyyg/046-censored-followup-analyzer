@@ -1,0 +1,13 @@
+scope,group,day,at_risk,events,censored,survival_after
+overall,__overall__,0,10,1,0,0.900000
+overall,__overall__,1,9,0,1,0.900000
+overall,__overall__,2,8,1,1,0.787500
+overall,__overall__,4,6,1,1,0.656250
+overall,__overall__,6,4,1,1,0.492188
+overall,__overall__,9,2,0,2,0.492188
+group,control,0,5,1,0,0.800000
+group,control,2,4,1,1,0.600000
+group,control,6,2,1,1,0.300000
+group,treated,1,5,0,1,1.000000
+group,treated,4,4,1,1,0.750000
+group,treated,9,2,0,2,0.750000

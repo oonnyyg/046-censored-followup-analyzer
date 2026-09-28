@@ -1,0 +1,36 @@
+{
+  "query_days": [
+    0,
+    2,
+    3,
+    6,
+    9,
+    12
+  ],
+  "overall": {
+    "group": "__overall__",
+    "subject_count": 10,
+    "event_count": 4,
+    "censored_count": 6,
+    "median_survival_days": 6,
+    "median_survival_note": "first event day at which survival <= 0.5"
+  },
+  "groups": [
+    {
+      "group": "control",
+      "subject_count": 5,
+      "event_count": 3,
+      "censored_count": 2,
+      "median_survival_days": 6,
+      "median_survival_note": "first event day at which survival <= 0.5"
+    },
+    {
+      "group": "treated",
+      "subject_count": 5,
+      "event_count": 1,
+      "censored_count": 4,
+      "median_survival_days": null,
+      "median_survival_note": "survival probability never reached 0.5 or below within observed follow-up"
+    }
+  ]
+}
